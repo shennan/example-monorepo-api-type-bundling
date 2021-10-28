@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "es2020",
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "include": ["src/**/*"],
+  "references": [
+    { "path": "../api" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+   "private": true,
+   "name": "example-monorepo-api-type-bundling",
+   "workspaces": [
+      "./api",
+      "./sdk"
+   ],
+   "scripts": {}
+}
